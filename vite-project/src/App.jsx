@@ -1,5 +1,7 @@
-import { BrowserRouter } from "react-router-dom"
-import { Home } from "./Pages/Home"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Home } from "./Pages/Home";
+import { NotFound } from "./Pages/NotFound";
+
 
 function App() {
 
@@ -7,13 +9,13 @@ function App() {
     <>
       <BrowserRouter>
       <Routes>
-       <Route index element={<Home/>}>
+       <Route index element={<Home/>}/>
 
-       </Route>
+       <Route path="*" element={<NotFound/>}/>
       </Routes>
       </BrowserRouter>
     </>
-  )
+  );
 }
 
 export default App
