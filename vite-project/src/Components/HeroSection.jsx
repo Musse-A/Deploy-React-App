@@ -1,3 +1,4 @@
+import { ArrowDown } from "lucide-react";
 
 
 export const HeroSection = () => {
@@ -25,16 +26,19 @@ return (
           <b>Mission Statement:</b>
         </p>
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-           To apply my strong analytical skills, combined with my background in software
-            engineering and biological sciences, to create impactful, sustainable solutions that
-            drive real-world change.
+           I’m excited to bring together my strong analytical skills and background in software engineering and biology to build practical, sustainable solutions that make a real difference in the world.
         </p>
-        <div>
+        <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
                 View My Work
             </a>
         </div>
+
     </div>
+</div>
+<div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+<span className="text-med text-muted-foreground mb-2">Scroll</span>
+<ArrowDown className="h-5 w-5 text-primary text-align"/>
 </div>
 
 </section>
