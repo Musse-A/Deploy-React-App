@@ -37,7 +37,7 @@ export const Navbar = () => {
             >
                 <img src={Logo} alt="Logo" className="w-10 h-10 mr-2 rounded-full" />
                 <span className="relative z-10">
-                    <span className="text-glow text-foreground">Ayan</span> {""} Portfolio
+                    <span className="text-glow text-foreground">Ayan's </span> {""} Portfolio
                 </span>
             </a>
             {/* Desktop Nav */}
