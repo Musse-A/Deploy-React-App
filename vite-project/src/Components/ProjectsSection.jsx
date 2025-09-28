@@ -2,9 +2,9 @@ export const ProjectsSection = () => {
   return (
     <section id="projects" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-        <span className="text-white">Featured&nbsp;</span>
-        <span className="text-primary">Projects</span>
+       <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+       Featured
+        <span className="text-primary"> Projects</span>
         </h2>
         <p className="text-center text-muted-foreground max-w-xl mx-auto mb-8">A showcase of my key projects demonstrating diverse skills and technologies.</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
