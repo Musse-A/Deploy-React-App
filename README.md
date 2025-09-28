@@ -11,6 +11,7 @@ This is my personal portfolio website built using React and Vite to showcase my 
 
 ## Installation
 If you want to run this project locally, clone the repository and install dependencies:
+
 npm install react react-dom
 
 npm install lucide-react
