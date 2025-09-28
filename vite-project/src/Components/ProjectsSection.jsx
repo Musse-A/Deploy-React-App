@@ -12,7 +12,7 @@ export const ProjectsSection = () => {
           {/* Project 1 */}
           <article className="gradient-border rounded-lg overflow-hidden card-hover shadow-lg bg-card">
             <img
-              src="/assets/projects/RealEstateProject.png"
+              src="/assets/images/projects/RealEstateProject.png"
               alt="Real Estate Website"
               className="w-full h-48 object-cover"
             />
@@ -32,7 +32,7 @@ export const ProjectsSection = () => {
           {/* Project 2 */}
           <article className="gradient-border rounded-lg overflow-hidden card-hover shadow-lg bg-card">
             <img
-              src="/assets/projects/BugCatcherGame.png"
+              src="/assets/images/projects/BugCatcherGame.png"
               alt="Bug Catcher Game"
               className="w-full h-48 object-cover"
             />
@@ -52,7 +52,7 @@ export const ProjectsSection = () => {
           {/* Project 3 */}
           <article className="gradient-border rounded-lg overflow-hidden card-hover shadow-lg bg-card">
             <img
-              src="/assets/projects/atm.png"
+              src="/assets/images/projects/atm.png"
               alt="ATM Simulator"
               className="w-full h-48 object-cover"
             />
