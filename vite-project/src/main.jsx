@@ -6,7 +6,6 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-   <p>Initial Commit</p>
   </StrictMode>,
 )
 
