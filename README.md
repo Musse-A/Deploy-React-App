@@ -24,6 +24,10 @@ Start the development server with:
 
 npm run dev
 
+or
+
+npm start
+
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the portfolio. The app reloads automatically when you make changes.
 
 ## Build
