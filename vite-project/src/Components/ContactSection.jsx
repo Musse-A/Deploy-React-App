@@ -53,10 +53,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium">Email</h4>
                   <a
-                    href="mailto:mary@icloud.com"
+                    href="mailto:musse.ayan@icloud.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    mary@icloud.com
+                    musse.ayan@icloud.com
                   </a>
                 </div>
               </div>
@@ -71,7 +71,7 @@ export const ContactSection = () => {
                     href="tel:15198249081"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (519) 824-9081
+                    +1 (519) 500-1410
                   </a>
                 </div>
               </div>
@@ -156,7 +156,7 @@ export const ContactSection = () => {
                   value={formData.email}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                  placeholder="your.email@example.com"
+                  placeholder="email@example.com"
                 />
               </div>
 
