@@ -24,7 +24,7 @@ export const EducationSection = () => {
             </h3>
             <p className="text-muted-foreground mb-1">Minor: Sociology</p>
             <p className="text-muted-foreground mb-1">University of Guelph, Guelph, ON</p>
-            <p className="mb-1">September 2018 - April 2023</p>
+            <p className="mb-1">Graduation: April 2023</p>
           </article>
           
           <article className="gradient-border p-6 card-hover">
